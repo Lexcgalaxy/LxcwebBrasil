@@ -9,38 +9,43 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #0f172a;
+      background: linear-gradient(135deg, #0f172a, #020617);
       color: white;
+      text-align: center;
     }
 
     header {
-      text-align: center;
       padding: 80px 20px;
-      background: linear-gradient(135deg, #0f172a, #1e293b);
     }
 
     h1 {
       font-size: 2.5em;
+      margin-bottom: 10px;
     }
 
-    p {
-      color: #cbd5f5;
+    .sub {
+      color: #94a3b8;
+      font-size: 1.1em;
+      margin-bottom: 30px;
     }
 
     .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 15px 25px;
       background: #22c55e;
-      color: white;
+      padding: 15px 30px;
+      border-radius: 12px;
       text-decoration: none;
-      border-radius: 10px;
+      color: white;
       font-weight: bold;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
     }
 
     .section {
       padding: 60px 20px;
-      text-align: center;
     }
 
     .cards {
@@ -54,13 +59,27 @@
       background: #1e293b;
       padding: 20px;
       border-radius: 15px;
-      width: 250px;
+      width: 260px;
+    }
+
+    .price {
+      font-size: 2em;
+      color: #22c55e;
+      margin: 20px 0;
+    }
+
+    .testimonial {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 300px;
     }
 
     footer {
-      text-align: center;
       padding: 30px;
       background: #020617;
+      font-size: 0.9em;
+      color: #64748b;
     }
 
     .whatsapp {
@@ -80,41 +99,67 @@
 <body>
 
 <header>
-  <h1>Crie seu site profissional em 24h</h1>
-  <p>Ajudo negócios locais brasileiros a crescer com sites simples, rápidos e que vendem.</p>
-  <a class="btn" href="https://wa.me/5521977539742">Falar no WhatsApp</a>
+  <h1>Seu site profissional em até 24h</h1>
+  <p class="sub">Mais clientes para seu negócio local com um site simples, rápido e direto ao WhatsApp.</p>
+  <a class="btn" href="https://wa.me/5521977539742?text=Olá,%20quero%20um%20site">Quero meu site agora</a>
 </header>
 
 <section class="section">
-  <h2>O que eu faço</h2>
+  <h2>Por que fazer um site?</h2>
   <div class="cards">
     <div class="card">
-      <h3>Sites rápidos</h3>
-      <p>Seu site pronto em até 24 horas.</p>
+      <h3>Mais clientes</h3>
+      <p>Seja encontrado no Google e aumente suas vendas.</p>
     </div>
     <div class="card">
-      <h3>WhatsApp integrado</h3>
+      <h3>WhatsApp direto</h3>
       <p>Clientes entram em contato com um clique.</p>
     </div>
     <div class="card">
-      <h3>Preço acessível</h3>
-      <p>Ideal para pequenos negócios.</p>
+      <h3>Profissionalismo</h3>
+      <p>Sua empresa com mais credibilidade.</p>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <h2>Para quem é?</h2>
-  <p>Barbearias, restaurantes, lojas, salões e qualquer negócio local que quer mais clientes.</p>
+  <h2>Quanto custa?</h2>
+  <p class="price">A partir de R$197</p>
+  <p class="sub">Pagamento único. Sem mensalidade.</p>
+  <a class="btn" href="https://wa.me/5521977539742?text=Quero%20fechar%20um%20site">Falar comigo</a>
+</section>
+
+<section class="section">
+  <h2>O que meus clientes dizem</h2>
+
+  <div class="cards">
+
+    <div class="testimonial">
+      <p>“Depois que fiz o site, comecei a receber clientes todos os dias pelo WhatsApp.”</p>
+      <strong>— João Silva, Barbearia</strong>
+    </div>
+
+    <div class="testimonial">
+      <p>“Agora meu negócio parece muito mais profissional e confiável.”</p>
+      <strong>— Mariana Costa, Loja</strong>
+    </div>
+
+    <div class="testimonial">
+      <p>“Em menos de 24h meu site estava pronto e já comecei a receber contatos.”</p>
+      <strong>— Carlos Henrique, Restaurante</strong>
+    </div>
+
+  </div>
 </section>
 
 <section class="section">
   <h2>Pronto pra crescer?</h2>
-  <a class="btn" href="https://wa.me/5521977539742">Solicitar meu site</a>
+  <p class="sub">Garanta seu site hoje mesmo e comece a receber clientes.</p>
+  <a class="btn" href="https://wa.me/5521977539742?text=Quero%20um%20site">Criar meu site</a>
 </section>
 
 <footer>
-  <p>© 2026 - Criação de Sites</p>
+  © 2026 - Criação de Sites para Negócios Locais
 </footer>
 
 <a class="whatsapp" href="https://wa.me/5521977539742">💬</a>
